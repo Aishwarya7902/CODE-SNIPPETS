@@ -1,0 +1,9 @@
+vector<int> Convert_to_Binary(int n){
+        vector<int>v;
+        while(n){
+            v.push_back(n%2);
+            n/=2;
+        }
+        return v;
+    }
+    //NOTE THAT TO PRINT ACTUAL BINARY START TRAVERSING VECTOR V FROM END
